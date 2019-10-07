@@ -1,6 +1,6 @@
 {
   "name": "cli-table-builder",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple table builder for CLIs.",
   "main": "table-builder.js",
   "scripts": {
@@ -28,5 +28,8 @@
     "eslint-plugin-jsdoc": "7.1.0",
     "eslint-plugin-sort-requires": "2.1.0",
     "prettier": "1.17.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   }
 }
