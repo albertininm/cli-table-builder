@@ -4,7 +4,8 @@
   "description": "A simple table builder for CLIs.",
   "main": "table-builder.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node example.js",
+    "format": "prettier --single-quote --no-bracket-spacing --trailing-comma es5 --write \"{src/**/*.js,tests/**/*.js,installer/**/*.js,*.js}\" && eslint --fix \"{src/**/*.js,tests/**/*.js,installer/**/*.js,*.js}\""
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,11 @@
   },
   "homepage": "https://github.com/albertmourato/cli-table-builder#readme",
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^2.4.2",
+    "eslint": "5.16.0",
+    "eslint-plugin-jest": "22.15.2",
+    "eslint-plugin-jsdoc": "7.1.0",
+    "eslint-plugin-sort-requires": "2.1.0",
+    "prettier": "1.17.1"
   }
 }
