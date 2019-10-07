@@ -1,0 +1,26 @@
+{
+  "name": "cli-table-builder",
+  "version": "0.0.1",
+  "description": "A simple table builder for CLIs.",
+  "main": "table-builder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertmourato/cli-table-builder.git"
+  },
+  "keywords": [
+    "cli",
+    "table"
+  ],
+  "author": "Albertinin Mourato Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertmourato/cli-table-builder/issues"
+  },
+  "homepage": "https://github.com/albertmourato/cli-table-builder#readme",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
